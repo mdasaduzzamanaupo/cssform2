@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	margin: 200px auto;
+}
+.form-container{
+	width: 30%;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	padding: 50px 30px;
+	border-radius: 5px;
+}
+.form-container h2{
+	color: brown;
+	font-size: 30px;
+	text-align: center;
+}
+input,select{
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 40%;
+	background-color: #CE2029;
+	color: #fff;
+	border:none;
+	border-radius: 5px;
+}
+input:focus{
+	border-color: red;
+}
+input[type=submit]:hover{
+	color: green;
+}
